@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    border: none;
+    margin: 30px auto;
+    width: 1216px;
+    height: 516px;
+    gap: 4px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 400px 200px 600px;
+    grid-template-rows: 150px 250px 100px;
+    grid-template-areas: "content-1 content-1 content-2"
+                         "content-3 content-4 content-4"
+                         "footer footer footer"
+                         ;
+}
+
+.content-1{
+    grid-area: content-1;
+    background-color: lightsalmon;
+}
+
+.content-2{
+    grid-area: content-2;
+    background-color: lightcoral;
+}
+
+.content-3{
+    grid-area: content-3;
+    background-color: lightseagreen;
+    /* display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr;
+    grid-template-areas: "box-1 box-2"
+                         "box-3 box-4"
+                         ; */
+}
+
+.content-4{
+    grid-area: content-4;
+    background-color: lightcyan;
+}
+
+footer{
+    grid-area: footer;
+    background-color: lightyellow;
+}
+
+.box-1{
+    grid-area: box-1;
+    background-color: gray;
+}
+
+.box-2{
+    grid-area: box-2;
+    background-color: grey;
+}
+
+.box-3{
+    grid-area: box-3;
+    background-color: lightgray;
+}
+
+.box-4{
+    grid-area: box-4;
+    background-color: lightslategray;
+}
