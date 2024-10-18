@@ -16,4 +16,4 @@ Trata-se de um exercício para entender as dinâmicas da função grid no CSS.
 * CSS;
 * Visual Studio Code.
 
-#### Desenvolvido para a matéria de Desenvolvimento WEB da faculdade de Análise e Desenvolvimento de Software. 
+#### Desenvolvido para a matéria de Desenvolvimento WEB. 
